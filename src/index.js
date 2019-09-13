@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import PortFolio from './Portfolio';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<PortFolio />, document.getElementById('root'));
