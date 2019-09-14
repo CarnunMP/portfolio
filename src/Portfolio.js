@@ -3,15 +3,14 @@ import axios from "axios";
 import Profile from "./components/Profile";
 import './Portfolio.css';
 
-
 function Portfolio() {
   const [{profilePic, name, contactInfo, bio, artefacts}, setProfile] = useState({
     profilePic: "",
-    name: "Carnun Marcus-Page",
+    name: "",
     contactInfo: {
-      email: "carnunmp.lambdaschool@gmail.com",
+      email: "",
     },
-    bio: "Yo yo yo yoooooooooooooo!",
+    bio: "",
     artefacts: {
       twitterIcon: "",
       githubIcon: "",
@@ -30,7 +29,7 @@ function Portfolio() {
           contactInfo: {
             email: "carnunmp.lambdaschool@gmail.com",
           },
-          bio: "Yo yo yo yoooooooooooooo!",
+          bio: "Epistemology, minds, & physical/abstract reality. Critical Rationalist. Friendly contrarian.",
           artefacts: {
             twitterIcon: "",
             githubIcon: "",
