@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ProfilePic from "./profile/ProfilePic";
 import Name from "./profile/Name";
-import contactInfo from "./profile/ContactInfo";
+import ContactInfo from "./profile/ContactInfo";
 
 const StyledProfile = styled.div`
     border: 2px solid white;
@@ -13,6 +13,8 @@ const StyledProfile = styled.div`
     .pic-name-and-contact {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        border: 2px solid red;
     }
 `;
 
@@ -23,6 +25,8 @@ function Profile(props) {
         <StyledProfile className="profile">
             <div className="pic-name-and-contact">
                 <ProfilePic profilePic={profilePic}/>
+                <Name name={name}/>
+                <ContactInfo contactInfo={contactInfo}/>
             </div>
             <div className="bio-and-links">
 
