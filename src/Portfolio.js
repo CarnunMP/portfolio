@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import axios from "axios";
 import Profile from "./components/Profile";
+import ProjectBox from "./components/ProjectBox"
 import './Portfolio.css';
 
 function Portfolio() {
@@ -48,6 +49,7 @@ function Portfolio() {
         bio={bio}
         artefacts={artefacts}
       />
+      <ProjectBox/>
     </div>
   );
 }
