@@ -20,6 +20,7 @@ function ProjectBox(props) {
             <Project/>
             <Project/>
             <Project/>
+            <Project/>
             <NextButton/>
         </StyledProjectBox>
     )

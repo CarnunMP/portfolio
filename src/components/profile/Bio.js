@@ -2,9 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledBioDiv = styled.div`
-    border: 1px solid purple;
-    max-width: 30rem;
+    background: black;
     padding: 1rem;
+    margin-bottom: 3%;
+
+    p {
+        color: white;
+    }
 `;
 
 function Bio(props) {

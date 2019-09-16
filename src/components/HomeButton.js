@@ -2,8 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledHomeButton = styled.div`
-    background: grey;
     height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: white;
+    }
 `;
 
 function HomeButton() {

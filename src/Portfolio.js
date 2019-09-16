@@ -31,7 +31,7 @@ function Portfolio() {
           contactInfo: {
             email: "carnunmp.lambdaschool@gmail.com",
           },
-          bio: "Epistemology, minds, & physical/abstract reality. Critical Rationalist. Friendly contrarian.",
+          bio: "Epistemology, minds, & physical/abstract reality. Critical Rationalist. Friendly contrarian MORE BIO BIO BIO BIO BIO BIO BIO BIO BIO BIO...",
           artefacts: {
             twitterIcon: "",
             githubIcon: "",

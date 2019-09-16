@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledPicDiv = styled.div`
-    /* border: 1px solid red; */
-    max-width: 20rem;
+    border: 5px solid black;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
     overflow: hidden;
+    margin-top: 2%;
 
     img {
         width: 100%;

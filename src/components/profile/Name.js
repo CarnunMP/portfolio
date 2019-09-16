@@ -2,7 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledNameDiv = styled.div`
-    border: 1px solid green;
+    background: black;
+    color: white;
+    padding: 1%;
+    margin-top: 3%;
 `;
 
 function Name(props) {
@@ -10,7 +13,7 @@ function Name(props) {
 
     return (
         <StyledNameDiv className="name">
-            <h2>{name}</h2>
+            <h1>{name}</h1>
         </StyledNameDiv>
     )
 }

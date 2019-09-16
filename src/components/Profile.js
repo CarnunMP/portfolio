@@ -7,7 +7,6 @@ import Bio from "./profile/Bio";
 import Artefacts from "./profile/Artefacts";
 
 const StyledProfile = styled.div`
-    background: grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,13 +16,17 @@ const StyledProfile = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 2px solid red;
+        height: 100%;
+        min-width: 25%;
     }
 
     .bio-and-artefacts {
         border: 2px solid blue;
+        height: 100%;
+        width: 30%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 `;
 
