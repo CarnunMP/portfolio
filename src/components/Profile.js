@@ -7,10 +7,11 @@ import Bio from "./profile/Bio";
 import Artefacts from "./profile/Artefacts";
 
 const StyledProfile = styled.div`
-    border: 2px solid white;
+    background: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 45vh;
 
     .pic-name-and-contact {
         display: flex;

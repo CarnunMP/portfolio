@@ -3,6 +3,7 @@ import axios from "axios";
 import Profile from "./components/Profile";
 import ProjectBox from "./components/ProjectBox"
 import './Portfolio.css';
+import HomeButton from './components/HomeButton';
 
 function Portfolio() {
   const [{profilePic, name, contactInfo, bio, artefacts}, setProfile] = useState({
@@ -50,6 +51,7 @@ function Portfolio() {
         artefacts={artefacts}
       />
       <ProjectBox/>
+      <HomeButton/>
     </div>
   );
 }
