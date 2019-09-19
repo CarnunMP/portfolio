@@ -11,7 +11,7 @@ function Artefacts(props) {
 
     return (
         <StyledArtefactsDiv className="artefacts">
-
+            ARTEFACT ICONS...
         </StyledArtefactsDiv>
     )
 }
