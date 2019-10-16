@@ -1,0 +1,19 @@
+.container {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 0 auto;
+  height: 100vh;
+}
+
+/* font-family: 'Fjalla One', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+h2, p {
+  font-family: 'Orbitron', sans-serif;
+}
